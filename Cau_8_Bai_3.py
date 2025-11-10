@@ -7,49 +7,49 @@ else:
     DuChi = NamDL % 12
     match DuCan:
         case 0:
-            can = "Canh"
+            print("Canh") 
         case 1:
-            can = "Tân"
+            print("Tân") 
         case 2:
-            can = "Nhâm"
+            print("Nhâm") 
         case 3:
-            can = "Quý"
+            print("Quý") 
         case 4:
-            can = "Giáp"
+            print("Giáp") 
         case 5:
-            can = "Ất"
+            print("Ất") 
         case 6:
-            can = "Bính"
+            print("Bính") 
         case 7:
-            can = "Đinh"
+            print("Đinh") 
         case 8:
-            can = "Mậu"
+            print("Mậu") 
         case 9:
-            can = "Kỷ"
+            print("Kỷ") 
 
     match DuChi:
         case 0:
-            chi = "Thân"
+            print("Thân") 
         case 1:
-            chi = "Dậu"
+            print("Dậu") 
         case 2:
-            chi = "Tuất"
+            print("Tuất") 
         case 3:
-            chi = "Hợi"
+            print("Hợi") 
         case 4:
-            chi = "Tí"
+            print("Tí") 
         case 5:
-            chi = "Sửu"
+            print("Sửu") 
         case 6:
-            chi = "Dầu"
+            print("Dầu") 
         case 7:
-            chi = "Mẹo"
+            print("Mẹo") 
         case 8:
-            chi = "Thìn"
+            print("Thìn") 
         case 9:
-            chi = "Tỵ"
+            print("Tỵ") 
         case 10:
-            chi = "Ngọ"
+            print("Ngọ") 
         case 11:
-            chi = "Mùi"
+            print("Mùi") 
     print(f"năm Âm Lịch của bạn là {DuCan + DuChi}")
